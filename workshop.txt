@@ -1,0 +1,66 @@
+Batch - 8
+Embedded Software Development Workshop 2022
+
+Microcontroller   - can understand all the instructions and perform accordingly
+			- portable
+			- RAM, ROM, EPROM are present
+
+Digital sensor - shows 0 and 1
+
+Bread board - 4 sections
+
+Exp -2
+HIGH - blink the LED
+	 OFF the LED
+
+1. Go to tools and select board "Arduino uno".
+2. After selection, compile and upload the code and check thr output. If the ouput shows error then select the board properly.
+
+AO - Analog section pin
+PWM - Pulse width Modulation
+	- used only for the purpose of pulse width modulation
+LDR - Light Dependent Resistor
+	- used in the Street Light System
+
+Pin 13 - default pin and it doesn't need any more connections
+
+red- +ve
+black -GND
+
+L293 Motor Driver
+
+- can connect simultaneously two DC Motors
+
+DC Motor - delay is not possible
+
+Servo motor - delay is possible
+
+Exp - 7
+
+1. Connect VE to VCC (+5V)
+2.Connect A1, A2 of Joystick to Arduino A0,A1 respectively
+3. Joystick pins must be kept at the bottom while operating
+
+Exp - 8
+
+1. Echo(input) to Digital pin D2 (RHS)
+2. Trig(output) to Digital pin D3
+
+- This is used to calculate the distance between the obstacle and the ultrasonic sensor
+
+Note : 
+
+- Always use rectangular surface for detecting in ultrasonic sensor
+
+- Change the baud width to 96000 in serial monitor for checking the ultrasonic sensor
+
+- Change the baud width to 1165000 in serial monitor for NodeMCU chip
+
+- For making the model to turn right, keep the right DC motor off and then make the left motor to rotate.
+
+- If no battery supply is given to the LC Driver Motor then it makes use of the system power.
+
+- If u neec more VCC connection then use bread board, where VCC connection can be extracted by connection another wire in the
+same potential.
+
+- Male to female connecting wires consist of one side pin and another side without pin.
